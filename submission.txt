@@ -1,0 +1,23 @@
+# Buat otomatis requirements
+pip freeze > requirements.txt
+
+# Instal dependensi
+pip install -r requirements.txt
+
+# Running Skrip main.py
+python main.py
+
+# Running unit test yang ada di folder tests
+python -m unittest discover tests
+
+# Running test coverage yang ada di folder tests
+coverage run -m unittest discover tests
+
+# Melihat hasil report
+coverage report -m
+
+# Scraping pada spreadsheets
+https://docs.google.com/spreadsheets/d/15ZUjmgUdMshETn983S3gXEMVkX9CuJocZMXbFAzYi-Y/edit?usp=sharing
+
+# Email Service Account
+sheets-access@project-etl-459518.iam.gserviceaccount.com
